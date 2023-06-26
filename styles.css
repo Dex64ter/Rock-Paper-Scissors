@@ -84,6 +84,10 @@ header h1 {
     background: #3c3c49;
 }
 
+.choice img {
+    margin: 1rem;
+}
+
 #action-massage {
     text-align: center;
     font-size: 20px;

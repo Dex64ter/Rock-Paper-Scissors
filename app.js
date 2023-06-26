@@ -44,7 +44,7 @@ function lose(uChoice, cChoice) {
 }
 
 function draw(uChoice, cChoice) {
-    result_div.innerHTML = "DRAW... 😑"
+    result_div.innerHTML = "Empatou... 😑"
     document.getElementById(uChoice).classList.add('grey-glow')
     setTimeout(function() { document.getElementById(uChoice).classList.remove('grey-glow') }, 250)
 }
